@@ -6,11 +6,13 @@
 //  Copyright © 2018년 Dukwon Nam. All rights reserved.
 //
 
- #include "p_1000.h"
+#include "p_1000.h"
+#include "p_1001.h"
 
 int main(int argc, const char * argv[]) {
     
-    main_1000();
+//    main_1000();
+    main_1001();
     
     return 0;
 }
