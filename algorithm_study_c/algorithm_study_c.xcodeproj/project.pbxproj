@@ -22,6 +22,7 @@
 		179B9F172022043E001A2A3E /* p_1110.c in Sources */ = {isa = PBXBuildFile; fileRef = 179B9F162022043E001A2A3E /* p_1110.c */; };
 		17FB133D219A94A600D2C38C /* p_1001.c in Sources */ = {isa = PBXBuildFile; fileRef = 17FB133C219A94A600D2C38C /* p_1001.c */; };
 		17FB1345219AB96E00D2C38C /* p_1003.c in Sources */ = {isa = PBXBuildFile; fileRef = 17FB1344219AB96E00D2C38C /* p_1003.c */; };
+		17FB1355219C3E3B00D2C38C /* p_1149.c in Sources */ = {isa = PBXBuildFile; fileRef = 17FB1354219C3E3B00D2C38C /* p_1149.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -66,6 +67,8 @@
 		17FB133C219A94A600D2C38C /* p_1001.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p_1001.c; sourceTree = "<group>"; };
 		17FB1343219AB96E00D2C38C /* p_1003.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = p_1003.h; sourceTree = "<group>"; };
 		17FB1344219AB96E00D2C38C /* p_1003.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p_1003.c; sourceTree = "<group>"; };
+		17FB1353219C3E3B00D2C38C /* p_1149.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = p_1149.h; sourceTree = "<group>"; };
+		17FB1354219C3E3B00D2C38C /* p_1149.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = p_1149.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,7 @@
 		1736267520086F7100336DC0 /* baekjoon_online */ = {
 			isa = PBXGroup;
 			children = (
+				17FB1352219C3E2300D2C38C /* p_1149 */,
 				17FB133A219A93EA00D2C38C /* p_1001 */,
 				17ED63692025DA8500893702 /* P_1003 */,
 				179B9F142022042E001A2A3E /* p_1110 */,
@@ -242,6 +246,15 @@
 			name = p_1001;
 			sourceTree = "<group>";
 		};
+		17FB1352219C3E2300D2C38C /* p_1149 */ = {
+			isa = PBXGroup;
+			children = (
+				17FB1353219C3E3B00D2C38C /* p_1149.h */,
+				17FB1354219C3E3B00D2C38C /* p_1149.c */,
+			);
+			name = p_1149;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -307,6 +320,7 @@
 				17687D252014E6A300ED4F0A /* p_2751.c in Sources */,
 				179B9F0B201B0A75001A2A3E /* p_11652.c in Sources */,
 				17362679200B206700336DC0 /* p_1934_1.c in Sources */,
+				17FB1355219C3E3B00D2C38C /* p_1149.c in Sources */,
 				1736267420086F3000336DC0 /* p_1000.c in Sources */,
 				17687D1D2013A45F00ED4F0A /* p_10989.c in Sources */,
 				17FB133D219A94A600D2C38C /* p_1001.c in Sources */,
