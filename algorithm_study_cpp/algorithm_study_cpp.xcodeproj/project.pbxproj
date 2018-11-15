@@ -20,6 +20,7 @@
 		17FB1349219BE84900D2C38C /* p_1003.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17FB1347219BE84900D2C38C /* p_1003.cpp */; };
 		17FB134D219BF94800D2C38C /* p_1110.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17FB134B219BF94800D2C38C /* p_1110.cpp */; };
 		17FB1351219C38DF00D2C38C /* p_1149.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17FB134F219C38DF00D2C38C /* p_1149.cpp */; };
+		17FB1359219D03D700D2C38C /* p_1934.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17FB1357219D03D700D2C38C /* p_1934.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,6 +59,8 @@
 		17FB134C219BF94800D2C38C /* p_1110.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = p_1110.hpp; sourceTree = "<group>"; };
 		17FB134F219C38DF00D2C38C /* p_1149.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = p_1149.cpp; sourceTree = "<group>"; };
 		17FB1350219C38DF00D2C38C /* p_1149.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = p_1149.hpp; sourceTree = "<group>"; };
+		17FB1357219D03D700D2C38C /* p_1934.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = p_1934.cpp; sourceTree = "<group>"; };
+		17FB1358219D03D700D2C38C /* p_1934.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = p_1934.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,7 @@
 		1707E8DB200470830064E44A /* baekjoon_online */ = {
 			isa = PBXGroup;
 			children = (
+				17FB1356219D03B500D2C38C /* p_1934 */,
 				17FB134E219C37ED00D2C38C /* p_1149 */,
 				17FB134A219BF92D00D2C38C /* p_1110 */,
 				17FB1346219BE82700D2C38C /* p_1003 */,
@@ -212,6 +216,15 @@
 			name = p_1149;
 			sourceTree = "<group>";
 		};
+		17FB1356219D03B500D2C38C /* p_1934 */ = {
+			isa = PBXGroup;
+			children = (
+				17FB1357219D03D700D2C38C /* p_1934.cpp */,
+				17FB1358219D03D700D2C38C /* p_1934.hpp */,
+			);
+			name = p_1934;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -275,6 +288,7 @@
 				17FB134D219BF94800D2C38C /* p_1110.cpp in Sources */,
 				1707E8E4200477FA0064E44A /* file_io_test.cpp in Sources */,
 				17FB1342219AB08500D2C38C /* p_1001.cpp in Sources */,
+				17FB1359219D03D700D2C38C /* p_1934.cpp in Sources */,
 				1707E8E920047ACF0064E44A /* p_9012.cpp in Sources */,
 				1736265D200661F700336DC0 /* p_1699.cpp in Sources */,
 				1707E8F22005CA770064E44A /* p_11053_second.cpp in Sources */,
